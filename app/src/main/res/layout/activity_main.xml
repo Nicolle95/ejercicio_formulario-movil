@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Nombre"
+        android:textSize="22sp"
+        android:padding="6dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/morado_claro"
+        />
+    <EditText
+        android:id="@+id/tvApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su apellido"
+        android:textSize="22sp"
+        android:padding="6dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/morado_claro"
+        />
+    <EditText
+        android:id="@+id/tvEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Edad"
+        android:textSize="22sp"
+        android:padding="6dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/morado_claro"
+        />
+    <EditText
+        android:id="@+id/tvCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Correo Electrónico"
+        android:textSize="22sp"
+        android:padding="6dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/morado_claro"
+        />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:text="Enviar Información"
+
+        />
+
+</LinearLayout>
